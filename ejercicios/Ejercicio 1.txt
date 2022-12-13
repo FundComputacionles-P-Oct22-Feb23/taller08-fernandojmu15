@@ -1,0 +1,17 @@
+1. Inicio
+2. contador,x(20)[{A-Z},{a-z},{0-n},{BS,$}]
+2. indice,i[o-n]
+3. ventas(5),i[0-n]
+4. dias(5), x(20)[{a-z}, {BS}]
+5. dias[0]<-- "Lunes"
+6. dias[1]<-- "Martes"
+7. dias[2]<-- "Miércoles"
+8. dias[3]<-- "Jueves"
+9. dias[4]<-- "Viernes"
+10.Para(indice<--0, indice<5,1)haga
+11.       << "Ingrese el valor del dia" + dias[indice]
+12.       >> ventas[indice]
+13.       contador<-- contador + dias[indice] + "\t" +"$" + ventas[indice] 
+14.Fin para
+15.<<contador
+16.Aleta 
